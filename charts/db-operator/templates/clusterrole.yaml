@@ -1,0 +1,17 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: {{ include "db-operator.fullname" . }}
+  labels:
+    {{- include "db-operator.labels" . | nindent 4 }}
+rules:
+  - apiGroups:
+      - db-operator.plumdog.co.uk
+    verbs:
+      - get
+      - list
+      - watch
+      - patch
+      - '*'
+    resources:
+      - '*'
