@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  db-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-31T22:12:54.889963234Z"
+    description: A Helm chart for Kubernetes
+    digest: c72f15bc52fe0e703b363732582dd0875e879557c87427bcc164295e77a1ee21
+    name: db-operator
+    type: application
+    urls:
+    - https://github.com/plumdog/db-operator/releases/download/db-operator-0.1.0/db-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-12-31T22:12:54.634578698Z"
