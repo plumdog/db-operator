@@ -2,3 +2,4 @@ chart-dirs:
   - charts/
 validate-chart-schema: false
 validate-maintainers: false
+target-branch: main
